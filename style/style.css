@@ -1,0 +1,136 @@
+/* font style */
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 60px;
+    width: 80%;
+    align-items: center;
+    background:#0d1b1241;
+    position: sticky;   
+    top: 0;
+    margin: auto;
+}
+
+.nav-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.nav-ul{
+    display: flex;
+    flex-direction: row;       
+}
+
+.nav-li{
+    padding-right: 20px;
+    list-style: none;
+    font-size: 15px;    
+}
+
+.nav-li-a{
+    text-decoration: none;
+    color: rgb(15, 17, 153);
+}
+
+.btn-hire-me{
+    text-decoration: none;
+    padding: 5px 20px;
+    line-height: 1em;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.nav-li:hover {
+    transform: scale(1.25);
+    filter:opacity(1.5);
+    transition: transform 0.55s ease;
+    }
+
+.o{
+    color: red;
+    font-family: open sans;
+    font-size: 45px;
+    font-style: normal;
+    line-height: normal;    
+    }
+
+.nav-logo{
+    font-family: open sans;
+    font-size: 45px;
+    font-style: normal;
+    line-height: normal;
+    padding: 0 20px;
+    margin-top: 0;
+}
+
+.banner{
+    height: 45vh;
+    text-align: justify;    
+    display: flex;
+    margin: 20px;    
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.banner > * {
+    flex: 1 1 0
+}
+
+#Hi{
+    font-size: larger;
+    margin-bottom: 0;
+}
+
+#name{
+    font-size: xx-large;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+#description{
+    font-size: 20px;
+}
+
+.profile-pic{
+    height: 100%;
+    width: 50%
+    
+        
+}
+
+.image{
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* height: 100%;
+    width: 50%   */
+}
+
+.head{
+    margin-top: 50px;
+}
+
+.btn-download-cv{    
+    padding: 5px 20px;
+    line-height: 1em;
+    background-color: rgb(218, 105, 158);
+    border-radius: 5px;
+}
+.btn-contract{    
+    padding: 5px 20px;
+    line-height: 1em;
+    background-color: rgb(231, 167, 199);
+    border-radius: 5px;
+}
